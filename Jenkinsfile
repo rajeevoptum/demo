@@ -4,7 +4,7 @@ pipeline {
      // adasfddded
         stage('Checkout the Git repository') {
             steps {
-                git branch: ‘main’, url: '  https://github.com/rajeevoptum/demo.git'
+                git branch: 'main', url: 'https://github.com/rajeevoptum/demo.git'
             }
         }
         stage('Build Docker image') {
