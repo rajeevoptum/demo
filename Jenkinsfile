@@ -10,7 +10,7 @@ pipeline {
         stage('Build Docker image') {
             steps {
                 script {
-                    def dockerfile = 'dockerfile'
+                    def dockerfile = 'Dockerfile'
                     def registry = 'localhost:5000'
                     def imageName = 'myimage'
                     def imageTag = 'latest'
